@@ -11,4 +11,6 @@ module.exports = {
   MONGO_URI: process.env.MONGO_URI,
   NODE_ENV: process.env.NODE_ENV,
   INITIAL_CHIPS_AMOUNT: 100000,
-  }
+  RPC_URL: process.env.RPC_URL,
+  UNISWAP_V3_FACTORY_ADDRESS: process.env.UNISWAP_V3_FACTORY_ADDRESS,
+}
